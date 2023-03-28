@@ -23,7 +23,8 @@ markup:
       unsafe: true
 
 Menus:
-  main: []
+  main:
+    []
     # - identifier: blog
     #   name: Blog
     #   title: Blog posts
@@ -56,7 +57,7 @@ params:
   title: "Denis Policastro - DevOps"
   description: Denis Policastro's Website
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/favicon.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -126,19 +127,21 @@ params:
     intro: "Hi, my name is"
     title: "Denis Policastro  ."
     subtitle: "I help companies to deliver software"
-    content: "A full full stack engineer. I've worked as a Full Stack Developer and now as a DevOps Architect. I know things from both sides."
+    content: "A full full stack engineer. I started working as a Full Stack Developer in 2014 and shifted to a DevOps role in 2018, but continued to code. I know things from servers to UI."
     image: /images/denis.jpeg
     roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://docs.google.com/document/d/16NGUMI0kyEqT718mgzQd4jvkdN0DN2E7U88erLn29Ko/edit?usp=sharing"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/refl3ction
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/dpolicastro
 
   # About
   about:
@@ -334,9 +337,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: denis.policastro@gmail.com
-    btnName: Mail me
+    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+    email: "mail"
+    btnName: Mail me - denis.policastro at gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
