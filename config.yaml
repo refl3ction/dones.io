@@ -54,7 +54,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Denis Policastro - DevOps"
+  title: "Denis Policastro - DevOps & Cloud Architect"
   description: Denis Policastro's Website
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.png"
@@ -127,13 +127,13 @@ params:
     intro: "Hi, my name is"
     title: "Denis Policastro  ."
     subtitle: "I help companies to deliver software"
-    content: "A full full stack engineer. I started working as a Full Stack Developer in 2014 and shifted to a DevOps role in 2018, but continued to code. I know things from servers to UI."
+    content: "A full full stack engineer. I started working as a Full Stack Developer in 2014 and shifted to a DevOps role in 2018. I know things from servers to UI."
     image: /images/denis.jpeg
     roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "https://docs.google.com/document/d/16NGUMI0kyEqT718mgzQd4jvkdN0DN2E7U88erLn29Ko/edit?usp=sharing"
+      url: "https://drive.google.com/file/d/1s8bJ-J9XK6aUiu36hp27OsQ9Hs-v7hcI/view?usp=sharing"
       download: true
       newPage: true
     socialLinks:
@@ -149,9 +149,9 @@ params:
     title: "About Me"
     image: "/images/profile.jpg"
     content: |-
-      The word DevOps is significant to me because I have strong development and operations skills.
-      I started working as a Full Stack Developer in 2014 and migrated to a DevOps-focused role in 2018.
-      I'm used to managing large-scale infrastructure on AWS using Terraform, improving CI/CD processes, and running Kubernetes in production environments. I help companies to deliver software faster and run them reliably.
+      The word DevOps is significant to me because I have strong development and operations skills. I started working as a Full Stack Developer in 2014 and migrated
+      to a DevOps-focused role in 2018. I have been deploying resources on AWS using Terraform since then, creating CI/CD pipelines, and running Kubernetes in production
+      environments. I helped hundreds of developers to have a better experience with operations, allowing them to deliver better software. My development skills help me a lot with those tasks.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
